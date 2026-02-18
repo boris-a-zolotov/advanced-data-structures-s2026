@@ -34,7 +34,7 @@
 | | А. Шпренгер | Scapegoat дерево ([1](https://people.csail.mit.edu/rivest/pubs/GR93.pdf), [2](https://github.com/boris-a-zolotov/course-ads-s20/blob/master/main.pdf), [3](https://neerc.ifmo.ru/wiki/index.php?title=Scapegoat_Tree)) | |
 | | | DCEL; алгоритм Форчуна (de Berg et al., 7.2) | |
 | | | [Arborally satisfied sets](https://erikdemaine.org/papers/BST_SODA2009/paper.pdf) | |
-| | | [Персистентность](https://www.cs.cmu.edu/~sleator/papers/another-persistence.pdf), [point location](https://dl.acm.org/doi/pdf/10.1145/6138.6151) | |
+| | Р. Пожарский | [Персистентность](https://www.cs.cmu.edu/~sleator/papers/another-persistence.pdf), [point location](https://dl.acm.org/doi/pdf/10.1145/6138.6151) | |
 | | | Klein: [Shortest paths](https://planarity.org/Klein_shortest_paths_with_nonnegative_lengths.pdf), [MSSP](https://planarity.org/Klein_multiple_source_shortest_paths.pdf) | |
 | | | [Gawrychowski — Minimax trees](https://scispace.com/pdf/alphabetic-minimax-trees-in-linear-time-1z4nruuofn.pdf) | |
 | | | Хордальные графы ([Ibarra 2008](https://github.com/boris-a-zolotov/advanced-data-structures-s2025/blob/main/pdf/ibarra2008.pdf), Banerjee et al. 2018) | |
