@@ -1,0 +1,93 @@
+\begin{tikzpicture}[
+  nd/.style  = {circle, draw=black!65, fill=white,
+                minimum size=8.5mm, inner sep=0pt, line width=0.8pt},
+  vnd/.style = {circle, draw=orange!80!black, fill=orange!20,
+                minimum size=8.5mm, inner sep=0pt, line width=1.1pt},
+  und/.style = {circle, draw=LimeGreen!65!black, fill=PaleGreen,
+                minimum size=8.5mm, inner sep=0pt, line width=0.8pt},
+  nnd/.style = {circle, draw=MediumBlue, fill=MediumBlue!10,
+                minimum size=8.5mm, inner sep=0pt, line width=1.1pt},
+  sp/.style  = {draw=black!55, line width=0.8pt},
+  >=stealth,
+]
+
+\begin{scope}
+  \node[nd]  (A1) at (0,  0.0) {};
+  \node[nd]  (A2) at (0, -1.6) {};
+  \node[vnd] (Av) at (0, -3.8) {};
+  \node[und] (Au) at (0, -5.3) {};
+  \node[nd]  (Al) at (0, -7.3) {};
+
+  \draw[sp] (A1)--(A2);
+  \draw[sp] (A2)--(Av);
+  \node[fill=white, inner sep=2pt] at (0,-2.8) {$\vdots$};
+  \draw[sp] (Av)--(Au);
+  \draw[sp] (Au)--(Al);
+  \node[fill=white, inner sep=2pt] at (0,-6.4) {$\vdots$};
+
+  \foreach \name/\ny in {A1/0.0, A2/-1.6, Av/-3.8, Au/-5.3, Al/-7.3}{
+    \draw[teal!50!black, dashed, line width=0.55pt]
+      (\name.west) -- (-1.05, \ny-0.50);
+    \fill[teal!15, draw=teal!58!black, line width=0.6pt]
+      (-1.47,\ny-1.15) -- (-0.63,\ny-1.15) -- (-1.05,\ny-0.50) -- cycle;
+  }
+
+  \draw[->, gray!55, line width=0.9pt]
+    (Al.east) to[bend right=40] (Av.east);
+
+  \node[nnd] (Anew) at (2.5,-3.8) {};
+\end{scope}
+
+\draw[->, line width=1.6pt, gray!40] (3.5,-4.5) -- (4.8,-4.5);
+
+\begin{scope}[xshift=8.2cm]
+  \node[nd]  (B1)   at (0,  0.0) {};
+  \node[nd]  (B2)   at (0, -1.6) {};
+  \node[vnd] (Bv)   at (0, -3.8) {};
+  \node[nnd] (Bnew) at (0, -5.3) {};
+
+  \draw[sp] (B1)--(B2);
+  \draw[sp] (B2)--(Bv);
+  \node[fill=white, inner sep=2pt] at (0,-2.8) {$\vdots$};
+  \draw[sp] (Bv)--(Bnew);
+
+  \foreach \name/\ny in {B1/0.0, B2/-1.6, Bv/-3.8}{
+    \draw[teal!50!black, dashed, line width=0.55pt]
+      (\name.west) -- (-1.05, \ny-0.50);
+    \fill[teal!15, draw=teal!58!black, line width=0.6pt]
+      (-1.47,\ny-1.15) -- (-0.63,\ny-1.15) -- (-1.05,\ny-0.50) -- cycle;
+  }
+
+  \draw[LimeGreen!55!black, dashed, line width=0.65pt]
+    (Bnew.west) -- (-1.05,-5.75);
+  \fill[PaleGreen!75, draw=LimeGreen!55!black, line width=0.8pt]
+    (-1.57,-6.58) -- (-0.53,-6.58) -- (-1.05,-5.75) -- cycle;
+\end{scope}
+
+\node[nd,  minimum size=5.5mm] at (0.5,-10.3) {};
+\node[font=\scriptsize, anchor=west] at (1.05,-10.3)
+  {узел правой ветви};
+
+\node[vnd, minimum size=5.5mm] at (0.5,-11.0) {};
+\node[font=\scriptsize, anchor=west] at (1.05,-11.0)
+  {первая вершина $v$ с $y_v > y_k$};
+
+\node[und, minimum size=5.5mm] at (0.5,-11.7) {};
+\node[font=\scriptsize, anchor=west] at (1.05,-11.7)
+  {последняя с $y < y_k$, корень правого поддерева $v$};
+
+\node[nnd, minimum size=5.5mm] at (0.5,-12.4) {};
+\node[font=\scriptsize, anchor=west] at (1.05,-12.4)
+  {новый узел $(x_k,\,y_k)$};
+
+\fill[teal!15, draw=teal!58!black, line width=0.6pt]
+  (5.2,-10.10) -- (5.8,-10.10) -- (5.5,-9.78) -- cycle;
+\node[font=\scriptsize, anchor=west] at (5.95,-9.95)
+  {левое поддерево вершины};
+
+\fill[PaleGreen!75, draw=LimeGreen!55!black, line width=0.8pt]
+  (5.2,-10.80) -- (5.8,-10.80) -- (5.5,-10.48) -- cycle;
+\node[font=\scriptsize, anchor=west] at (5.95,-10.65)
+  {правое\ поддерево $v$ до добавления $(x_k, y_k)$};
+
+\end{tikzpicture}
