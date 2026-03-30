@@ -33,7 +33,7 @@
 | 2026.03.10 | Р. Козлов | [Link-cut дерево](https://www.cs.cmu.edu/~sleator/papers/dynamic-trees.pdf) | [link-cut-trees-v2.pdf](https://github.com/boris-a-zolotov/advanced-data-structures-s2025/blob/main/summaries-2026/link-cut-trees-v2.pdf) |
 | 2026.03.17 | А. Шпренгер | Scapegoat дерево ([1](https://people.csail.mit.edu/rivest/pubs/GR93.pdf), [2](https://github.com/boris-a-zolotov/course-ads-s20/blob/master/main.pdf), [3](https://neerc.ifmo.ru/wiki/index.php?title=Scapegoat_Tree)) | |
 | 2026.03.24 | Э. Хисамутдинов | DCEL; алгоритм Форчуна (de Berg et al., 7.2) | |
-| 2026.03.31 | [Р. Магдиев](https://t.me/RichyRussel) | Klein: [Shortest paths](https://planarity.org/Klein_shortest_paths_with_nonnegative_lengths.pdf), [MSSP](https://planarity.org/Klein_multiple_source_shortest_paths.pdf) | |
+| (перенос) | [Р. Магдиев](https://t.me/RichyRussel) | Klein: [Shortest paths](https://planarity.org/Klein_shortest_paths_with_nonnegative_lengths.pdf), [MSSP](https://planarity.org/Klein_multiple_source_shortest_paths.pdf) | |
 | 2026.04.07 | Р. Пожарский | [Персистентность](https://www.cs.cmu.edu/~sleator/papers/another-persistence.pdf), [point location](https://dl.acm.org/doi/pdf/10.1145/6138.6151) | |
 | | | [Arborally satisfied sets](https://erikdemaine.org/papers/BST_SODA2009/paper.pdf) | |
 | | | [Gawrychowski — Minimax trees](https://scispace.com/pdf/alphabetic-minimax-trees-in-linear-time-1z4nruuofn.pdf) | |
