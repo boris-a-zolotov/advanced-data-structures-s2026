@@ -35,13 +35,13 @@
 | 2026.03.24 | Э. Хисамутдинов | DCEL; алгоритм Форчуна (de Berg et al., 7.2) | [fortune_summary.pdf](https://github.com/boris-a-zolotov/advanced-data-structures-s2025/blob/main/summaries-2026/fortune_summary.pdf) |
 | (перенос) | [Р. Магдиев](https://t.me/RichyRussel) | Klein: [Shortest paths](https://planarity.org/Klein_shortest_paths_with_nonnegative_lengths.pdf), [MSSP](https://planarity.org/Klein_multiple_source_shortest_paths.pdf) | |
 | 2026.04.07 | Р. Пожарский | [Персистентность](https://www.cs.cmu.edu/~sleator/papers/another-persistence.pdf), [point location](https://dl.acm.org/doi/pdf/10.1145/6138.6151) | |
+| 2026.04.14 | Р. Магдиев | Klein, MSSP, part 2: re-rooting shortest path trees | |
+| 2026.04.21 | П. Минкин | [Chan's dynamic nearest neighbor structure](https://tmc.web.engr.illinois.edu/dch3d.pdf) | |
+| 2026.04.28 | Р. Козлов | [(online)](https://zoom.us/j/958115833) In-place priority queue: [Edelkamp, Elmasry, Katajainen](https://www.researchgate.net/publication/300780950_An_In-Place_Priority_Queue_with_O1_Time_for_Push_and_lg_n_O1_lg_n_O_1_Comparisons_for_Pop) | |
 | | | [Arborally satisfied sets](https://erikdemaine.org/papers/BST_SODA2009/paper.pdf) | |
 | | | [Gawrychowski — Minimax trees](https://scispace.com/pdf/alphabetic-minimax-trees-in-linear-time-1z4nruuofn.pdf) | |
 | | | Хордальные графы ([Ibarra 2008](https://github.com/boris-a-zolotov/advanced-data-structures-s2025/blob/main/pdf/ibarra2008.pdf), Banerjee et al. 2018) | |
-| | | [Chan's dynamic nearest neighbor structure](https://tmc.web.engr.illinois.edu/dch3d.pdf) | |
 | | | [Worst-Case Optimal Priority Queues](https://arxiv.org/pdf/1112.0993) | |
-| | | In-place priority queue: [Edelkamp, Elmasry, Katajainen](https://www.researchgate.net/publication/300780950_An_In-Place_Priority_Queue_with_O1_Time_for_Push_and_lg_n_O1_lg_n_O_1_Comparisons_for_Pop) | |
 | | | [Сортировка и статистика](https://link.springer.com/chapter/10.1007/978-3-642-30642-6_2) на RAM-машине с ошибками памяти | |
 | | | Self-organising lists: [move-to-front](https://www14.in.tum.de/personen/albers/papers/chapter.pdf), [TIMESTAMP(*p*)](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=4d989d1905cc5d341fa8698e6a715fec22bfe2cd) | |
 | | | Сортировка Шелла: [Sedgewick](https://sedgewick.io/wp-content/themes/sedgewick/papers/1986Shellsort.pdf) | |
-| | | [Липкое умножение произвольных матриц](https://arxiv.org/pdf/2408.04613) | |
