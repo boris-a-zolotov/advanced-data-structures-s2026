@@ -38,10 +38,10 @@
 | 2026.04.14 | Р. Магдиев | Klein, MSSP, part 2: re-rooting shortest path trees | |
 | 2026.04.21 | П. Минкин | [Chan's dynamic nearest neighbor structure](https://tmc.web.engr.illinois.edu/dch3d.pdf) | |
 | 2026.04.28 | Р. Козлов | [(online)](https://zoom.us/j/958115833) In-place priority queue: [Edelkamp, Elmasry, Katajainen](https://www.researchgate.net/publication/300780950_An_In-Place_Priority_Queue_with_O1_Time_for_Push_and_lg_n_O1_lg_n_O_1_Comparisons_for_Pop) | |
+| 2026.05.05 | М. Мисриев | [(online)](https://zoom.us/j/958115833) Сортировка Шелла: [Sedgewick](https://sedgewick.io/wp-content/themes/sedgewick/papers/1986Shellsort.pdf) | |
+| 2026.05.12 | Э. Хисамутдинов | [(online)](https://zoom.us/j/958115833) [Gawrychowski — Minimax trees](https://scispace.com/pdf/alphabetic-minimax-trees-in-linear-time-1z4nruuofn.pdf) | |
 | | | [Arborally satisfied sets](https://erikdemaine.org/papers/BST_SODA2009/paper.pdf) | |
-| | | [Gawrychowski — Minimax trees](https://scispace.com/pdf/alphabetic-minimax-trees-in-linear-time-1z4nruuofn.pdf) | |
 | | | Хордальные графы ([Ibarra 2008](https://github.com/boris-a-zolotov/advanced-data-structures-s2025/blob/main/pdf/ibarra2008.pdf), Banerjee et al. 2018) | |
 | | | [Worst-Case Optimal Priority Queues](https://arxiv.org/pdf/1112.0993) | |
 | | | [Сортировка и статистика](https://link.springer.com/chapter/10.1007/978-3-642-30642-6_2) на RAM-машине с ошибками памяти | |
 | | | Self-organising lists: [move-to-front](https://www14.in.tum.de/personen/albers/papers/chapter.pdf), [TIMESTAMP(*p*)](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=4d989d1905cc5d341fa8698e6a715fec22bfe2cd) | |
-| | | Сортировка Шелла: [Sedgewick](https://sedgewick.io/wp-content/themes/sedgewick/papers/1986Shellsort.pdf) | |
